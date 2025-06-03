@@ -1,0 +1,9 @@
+﻿@page "/samples"
+
+<MudCard Class="ma-4 pa-4" Elevation="4">
+	<MudText>@CascadingString</MudText>
+
+	<CascadingValue Value="CascadingString">
+		<FirstChildComponent ForwardNewString="ClickHandler" />
+	</CascadingValue>
+</MudCard>
